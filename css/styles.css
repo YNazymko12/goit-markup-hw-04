@@ -346,13 +346,13 @@ img {
   height: 100%;
   border: 1px solid var(--subtle-text);
   border-radius: 4px;
-  fill: var(--subtle-text);
+  color: var(--subtle-text);
   transition: border-color var(--transition), color var(--transition);
 }
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--pressed-state-color);
-  fill: var(--pressed-state-color);
+  color: var(--pressed-state-color);
 }
 .customers-icon {
   fill: currentColor;
@@ -466,12 +466,10 @@ img {
   position: relative;
   overflow: hidden;
 }
-.portfolio-link:hover .portfolio-description,
-.portfolio-link:focus .portfolio-description {
+.portfolio-link:hover .overlay-text,
+.portfolio-link:focus .overlay-text {
   transform: translateY(0%);
-
 }
-
 .overlay-text {
   position: absolute;
   top:0;
